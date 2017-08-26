@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "sodogetip shortcuts",
+  "description": "Adds a handy tipping shortcut to the reddit comment fields.",
+  "version": "0.2",
+  "short_name" : "SDT Shortcuts",
+  "author" : "u/jasdac",
+  
+
+
+  "icons" : {
+    "300" : "sdtlogo.png",
+    "128" : "sdtlogo_128.png"
+  },
+
+  "content_scripts" : [
+    {
+        "matches" : ["https://www.reddit.com/r/*/comments/*"],
+        "js" : ["jquery.min.js", "cs.js"],
+        "css" : ["cs.css"]
+    }
+  ],
+
+  "permissions": [ ]
+}

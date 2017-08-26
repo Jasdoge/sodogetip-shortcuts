@@ -1,0 +1,46 @@
+
+div.dogetipblock{
+
+    display:block;
+    position: relative;
+    
+
+}
+
+
+div.dogetipblock.active input[type=number]{
+    display:none;
+}
+div.dogetipblock.active input[type=button]{
+    font-weight: normal;
+    background: #B54442;
+    border-radius: 5px;
+}
+div.dogetipblock input[type=button]{
+    background: #43B753;
+    border:1px solid #AAA; 
+    outline:none;
+    font-weight: bold;
+    color:#FFF;
+    text-shadow:2px 2px 5px rgba(0,0,0,.25);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+div.dogetipblock > input{
+    padding:3px !important;
+    margin:2px;
+    border:1px solid #AAA; 
+}
+
+div.dogetipblock > input[type=number]{
+    width:4em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+div.dogetipblock > *{
+    vertical-align: middle;
+}
+
