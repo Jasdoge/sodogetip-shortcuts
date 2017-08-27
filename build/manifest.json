@@ -16,7 +16,15 @@
 
   "content_scripts" : [
     {
-        "matches" : ["https://www.reddit.com/r/*/comments/*"],
+        "matches" : [
+          "https://www.reddit.com/r/*/comments/*", 
+          "https://www.reddit.com/message/inbox/*",
+          "https://www.reddit.com/message/unread/*",
+          "https://www.reddit.com/message/comments/*",
+          "https://www.reddit.com/message/selfreply/*",
+          "https://www.reddit.com/message/mentions/*",
+          "https://www.reddit.com/user/*/comments/*"
+        ],
         "js" : ["jquery.min.js", "cs.js"],
         "css" : ["cs.css"]
     }

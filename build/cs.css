@@ -7,8 +7,11 @@ div.dogetipblock{
 
 }
 
+div.dogetipblock label.verify{
+    cursor:help;
+}
 
-div.dogetipblock.active input[type=number]{
+div.dogetipblock.active .hideIfTipped{
     display:none;
 }
 div.dogetipblock.active input[type=button]{
